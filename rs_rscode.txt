@@ -1,3 +1,4 @@
+RS编码器
 RS_code
 function code=rs_rscode(msg)//
 g=[1 0 0 3 2 1 3
