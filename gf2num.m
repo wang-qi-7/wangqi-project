@@ -1,7 +1,7 @@
 
 %计算GF域内每个码元与“0”码字的码距，并映射在成实数子程序：
 function distance = gf2num(gf_a)
-distance = -1;
+distance = -2;
 if (gf_a == gf(0,3)) distance = 0; end
 if (gf_a == gf(1,3)) distance = 1; end
 if (gf_a == gf(2,3)) distance = 2; end
